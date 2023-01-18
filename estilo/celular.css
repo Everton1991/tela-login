@@ -39,12 +39,10 @@
 @media screen and (min-width:200px) and (max-width:400px) {
 
     .esquerda{
-        max-height: 45%;
-        
+        max-height: 45%; 
     }
     .direita{
-        max-height: 55%;
-        
+        max-height: 55%;  
     }
 
     h1{
