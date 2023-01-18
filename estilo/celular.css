@@ -36,3 +36,27 @@
         margin-top: 10px;
     }
 }
+@media screen and (min-width:200px) and (max-width:400px) {
+
+    .esquerda{
+        max-height: 45%;
+        
+    }
+    .direita{
+        max-height: 55%;
+        
+    }
+
+    h1{
+        font-size: 1.5em;
+    }
+    h2{
+        display: none;
+    }
+    .login >input{
+        padding: 10px;
+    }
+    button{
+        padding:10px;
+    }
+}
