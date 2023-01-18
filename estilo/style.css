@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+:root{
+    
+--cor1: #4B296B;
+--cor2: #4C2C72;
+--cor3: #88D9E6;
+--cor4: #7765e3ff;
+--cor5: #F7EBEC;
+--cor6: #9CE37D;
+
+--font-destaque:'Permanent Marker', cursive; 
+--font-padrao:'Poppins', sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:var(--font-padrao);  
+}
+
+.geral{
+    width: 100vw;
+    height: 100vh;
+    display: flex; 
+}
+.esquerda{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    background-color: var(--cor4); 
+}
+h1{
+    font-family:var(--font-destaque);
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color:#7FFFD4;
+    text-shadow: 0px 3px 3px var(--cor1);
+ 
+}
+img{
+    max-width: 500px;
+    min-width: 300px;
+}
+.direita{
+    background-color: var(--cor4);
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    width: 60%;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 35px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.5);
+}
+h2{
+    font-family:var(--font-destaque);
+    font-size: 2em;
+    color:var(--cor4);
+    text-shadow: 0px 2px 2px #7865e3d2;
+}
+.login{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 30px;
+}
+.login > input{
+    
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    outline: none;
+    box-sizing: border-box;
+    box-shadow: 0px 5px 5px #7865e3d2;
+    
+}
+button{
+    font-size: 1em;
+    font-weight: 500;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    padding: 15px;
+    box-shadow: 0px 5px 5px #7865e3d2;
+    margin: 10px 0px 5px 0px ;
+    color: var(--cor4);
+    cursor: pointer;
+}
+label{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    font-size: 1.2em;
+    color:var(--cor4);
+    
+}
+.link{  
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 15px;
+    
+}
+#senha{
+    text-align: left;
+    text-decoration: none;
+}
+#cadastro{
+    text-align: right;
+    text-decoration: none;
+}
